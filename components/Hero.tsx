@@ -18,14 +18,14 @@ const Hero = () => {
         {/* Text content */}
         <div className="relative z-10 max-w-[90vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center text-center space-y-4 px-4">
             <h2 className="uppercase tracking-widest text-xs text-blue-100">
-                Data-Driven Digital Experiences
+                Data-Driven Driven Solutions
             </h2>
             <TextGenerateEffect 
                 className="text-[28px] sm:text-[36px] md:text-5xl lg:text-6xl leading-tight"
-                words="Bringing Ideas to Life with Computational Design"
+                words="Transformed Through Computational Design"
             />
             <p className="md:tracking-wider text-sm md:text-lg lg:text-xl text-[#D8B4FE]">
-                Hi, I'm Andres, a Computational Designer and Developer in Brooklyn
+                with code and intuition
             </p>
             <a href="#about">
                 <MagicButton 
