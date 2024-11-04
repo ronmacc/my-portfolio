@@ -18,7 +18,7 @@ const Hero = () => {
         {/* Text content */}
         <div className="relative z-10 max-w-[90vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center text-center space-y-4 px-4">
             <h2 className="uppercase tracking-widest text-xs text-blue-100">
-                Data-Driven Driven Solutions
+                Data-Driven Solutions
             </h2>
             <TextGenerateEffect 
                 className="text-[28px] sm:text-[36px] md:text-5xl lg:text-6xl leading-tight"
