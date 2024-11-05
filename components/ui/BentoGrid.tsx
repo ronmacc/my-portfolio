@@ -68,6 +68,7 @@ export const BentoGridItem = ({
           {description}
         </div>
       </div>
+      {id === 2 && <GridGlove />}
     </div>
   );
 };

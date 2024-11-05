@@ -14,10 +14,7 @@ const cameraZ = 300;
 
 let numbersOfRings = [0];
 
-export function Globe({
-  globeConfig,
-  data
-}) {
+export function Globe({ globeConfig, data }) {
   const [globeData, setGlobeData] = useState(null);
 
   const globeRef = useRef(null);
