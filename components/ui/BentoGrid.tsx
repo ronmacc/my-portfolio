@@ -1,4 +1,6 @@
 import { cn } from "../../utils/cn";
+import { Globe } from "./Globe";
+import GridGlobe from "./GridGlobe";
 
 export const BentoGrid = ({
   className,
@@ -68,7 +70,7 @@ export const BentoGridItem = ({
           {description}
         </div>
       </div>
-      {id === 2 && <GridGlove />}
+      
     </div>
   );
 };

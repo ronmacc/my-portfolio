@@ -10,11 +10,7 @@ export const metadata: Metadata = {
   description: "Portfolio of Andres Roncal – Computational Designer and Software Engineer with experience in web-based simulations, machine learning, and parametric design.",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={`${inter.className} antialiased`}>
@@ -25,7 +21,8 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-        </ThemeProvider></body>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
