@@ -6,6 +6,7 @@ import Hero from '../components/Hero';
 import { FaHome } from 'react-icons/fa';
 import Grid from '@/components/Grid';
 import { useEffect } from 'react';
+import RecentProjects from "@/components/RecentProjects";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Hero />
         <Grid />
+        <RecentProjects />
         {/* <RecentProjects />
         <Clients />
         <Experience />

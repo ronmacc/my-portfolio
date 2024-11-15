@@ -7,7 +7,7 @@ export const TextGenerateEffect = ({
   words,
   className,
   filter = true,
-  duration = 0.5
+  duration = 0.6
 }) => {
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
@@ -18,25 +18,26 @@ export const TextGenerateEffect = ({
       opacity: 1,
       filter: filter ? "blur(0px)" : "none",
     }, {
-      duration: 1.1,
-      delay: stagger(0.2),
+      duration: 1.3,
+      delay: stagger(0.27),
     });
   }, [scope.current]);
 
   const renderWords = () => {
     return (
       <motion.div ref={scope}>
-        {wordsArray.map((word, idx) => (
-          <motion.span
-            key={word + idx}
-            className={`${idx >= lastTwoWordsIndex ? 'text-purple-500' : 'dark:text-white text-black'} opacity-0`}
-            style={{
-              filter: filter ? "blur(10px)" : "none",
-            }}
-          >
-            {word}{" "}
-          </motion.span>
-        ))}
+        {wordsArray.map((word, idx) => {
+          return (
+            <motion.span
+              key={word + idx}
+              // change here if idx is greater than 3, change the text color to #CBACF9
+              className={` ${idx > 1 ? "text-purple" : "dark:text-white text-black"
+                } opacity-0`}
+            >
+              {word}{" "}
+            </motion.span>
+          );
+        })}
       </motion.div>
     );
   };
@@ -44,7 +45,7 @@ export const TextGenerateEffect = ({
   return (
     <div className={cn("font-bold", className)}>
       <div className="my-4">
-        <div className="dark:text-white text-black text-2xl leading-snug tracking-wide">
+        <div className="dark:text-white text-black text-5xl leading-snug tracking-wide">
           {renderWords()}
         </div>
       </div>
