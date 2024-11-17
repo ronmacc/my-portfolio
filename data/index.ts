@@ -8,8 +8,8 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
-      description: "",
+      title: "Hi there!",
+      description: "I am a software developer blending advanced computation, machine larning, and creative design",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
@@ -18,8 +18,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
-      description: "",
+      title: "My Work",
+      description: "From facade engineering to open-source tools, I explore innovation at every step.",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
@@ -28,8 +28,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
+      title: "My Tech Stack",
+      description: "Python, Vue.js, Three.js, NVIDIA Modulus, PyTorch, and beyond.",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,28 +38,29 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Tech enthusiast with a passion for development.",
-      description: "",
+      title: "Educational Material",
+      description: "Here are my latest tutorials on algorithms and Physics Informed Neural Networks",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
-  
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Academia",
+      description: `Master of Science in Advanced Computation for Architecture - IAAC
+Bachelor of Science in Architecture - Pratt Institute
+Associate Degree in Architecture - Miami Dade College`,
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
+      titleClassName: "justify-center md:justify-start lg:justify-center",      
       img: "/b5.svg",
       spareImg: "/grid.svg",
-    },
+    },    
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Get in Touch",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -156,78 +157,143 @@ export const navItems = [
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      // name: "DeSimone",
+      // img: "/desimone.svg",
+      nameImg: "/desimone.svg",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      name: "Thornton Tomasetti",
+      // img: "/thornton.svg",
+      nameImg: "/thornton.svg",
     },
     {
       id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      name: "Pratt Institute",
+      // img: "/pratt.svg",
+      nameImg: "/pratt.svg",
     },
     {
       id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
+      name: "IAAC",
+      // img: "/s.svg",
+      nameImg: "/iaac.png",
     },
     {
       id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      name: "MDC.",
+      // img: "/dock.svg",
+      nameImg: "/MDC.png",
+    },
+    {
+      id: 6,
+      name: "island.",
+      // img: "/dock.svg",
+      nameImg: "/island.png",
     },
   ];
   
   export const workExperience = [
     {
-      id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+        id: 1,
+        title: "Senior Computational Designer",
+        company: "Thornton Tomasetti",
+        desc: [
+            "Led the development of parametric design workflows using Grasshopper and Rhino Inside Revit for large-scale engineering projects.",
+            "Created interoperability tools to integrate Rhino, Speckle, and Revit, improving collaboration across design and engineering teams.",
+            "Developed AI-driven geometric rationalization workflows to optimize structural performance and facade design."
+        ],
+        className: "md:col-span-2",
+        thumbnail: "/exp1.svg",
     },
     {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
+        id: 2,
+        title: "Urban Wind Flow Modeling Research",
+        company: "IAAC",
+        desc: [
+            "Developed a web-based platform for urban wind simulations using Vue.js, Three.js, and NVIDIA Modulus for CFD applications.",
+            "Integrated data from OpenStreetMap and OpenWeather APIs to model real-time urban wind conditions.",
+            "Deployed Physics-Informed Neural Networks (PINNs) for fluid dynamics modeling, contributing to sustainable urban design research."
+        ],
+        className: "md:col-span-2",
+        thumbnail: "/exp2.svg",
     },
     {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
+        id: 3,
+        title: "Research Assistant – Robotic Fabrication",
+        company: "Pratt Institute",
+        desc: [
+            "Programmed ABB 6-axis robotic arms for multi-material 3D printing of architectural prototypes.",
+            "Developed custom scripts in Grasshopper and Python for robotic toolpath generation.",
+            "Conducted research on material performance and its application to automated architectural fabrication."
+        ],
+        className: "md:col-span-2",
+        thumbnail: "/exp3.svg",
     },
     {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+        id: 4,
+        title: "Project Manager",
+        company: "Island Exterior Fabricators",
+        desc: [
+            "Managed a $14 million facade fabrication and installation project, ensuring timely delivery and budget control.",
+            "Automated project workflows with data-driven scheduling tools, increasing efficiency by 20%.",
+            "Oversaw vendor coordination and logistics for complex facade elements, ensuring seamless on-site assembly."
+        ],
+        className: "md:col-span-2",
+        thumbnail: "/exp4.svg",
     },
-  ];
+    {
+        id: 5,
+        title: "Facade Engineer",
+        company: "DeSimone Consulting Engineers",
+        desc: [
+            "Designed and engineered custom facade solutions for high-profile projects, including complex geometry systems.",
+            "Conducted structural analysis and detailed engineering reports to ensure compliance with safety standards.",
+            "Collaborated with architects and contractors to optimize fabrication methods and materials."
+        ],
+        className: "md:col-span-2",
+        thumbnail: "/exp5.svg",
+    },
+    {
+        id: 6,
+        title: "Facade Designer",
+        company: "Miami Dade College",
+        desc: [
+            "Produced detailed fabrication drawings and installation guides for complex building facades.",
+            "Implemented computational design methods to enhance material efficiency and aesthetics.",
+            "Trained team members on advanced software tools such as Rhino and Grasshopper for design automation."
+        ],
+        className: "md:col-span-2",
+        thumbnail: "/exp6.svg",
+    },
+];
+
+
   
   export const socialMedia = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/ronmaccms",
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/youtube.svg",
+      link: "https://www.youtube.com/@madmaresearch",
     },
     {
       id: 3,
-      img: "/link.svg",
+      img: "/linkedin.svg",
+      link: "https://www.linkedin.com/in/andres-roncal-1b148a132/",
+    },
+    {
+      id: 4,
+      img: "/blog.svg",
+      link: "https://blog.iaac.net/user/ronmacc/",
+    },
+    {
+      id: 5,
+      img: "/behance.svg",
+      link: "https://www.behance.net/Ronmacc",
     },
   ];
