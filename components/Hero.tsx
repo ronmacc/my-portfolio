@@ -27,7 +27,7 @@ const Hero = () => {
             <p className="md:tracking-wider text-sm md:text-lg lg:text-xl text-[#D8B4FE]">
                 with code and intuition
             </p>
-            <a href="#about">
+            <a href="#projects">
                 <MagicButton 
                     title="Show my work"
                     icon={<FaLocationArrow />}
