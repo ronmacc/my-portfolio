@@ -42,6 +42,11 @@ const config = {
           "100": "#E4ECFF",
         },
         purple: "#CBACF9",
+        primary: {
+          DEFAULT: "#00509E", // Primary color
+          dark: "#012A4A",    // Darker shade for dark mode
+          light: "#73C2FB",   // Lighter shade
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

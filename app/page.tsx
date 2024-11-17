@@ -7,6 +7,8 @@ import { FaHome } from 'react-icons/fa';
 import Grid from '@/components/Grid';
 import { useEffect } from 'react';
 import RecentProjects from "@/components/RecentProjects";
+import Clients from "@/components/Clients";
+import Experience from "@/components/Experience";
 
 const Home = () => {
   return (
@@ -16,10 +18,9 @@ const Home = () => {
         <Hero />
         <Grid />
         <RecentProjects />
-        {/* <RecentProjects />
         <Clients />
         <Experience />
-        <Approach />
+        {/* <Approach />
         <Footer /> */}
       </div>
     </main>
