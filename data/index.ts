@@ -9,27 +9,30 @@ export const navItems = [
     {
       id: 1,
       title: "Hi there!",
-      description: "I am a software developer blending advanced computation, machine larning, and creative design",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+      description: "Hello! I’m Andres. With a background in computational design, machine learning, and facade engineering, I specialize in applying advanced computation to architecture and engineering. Recently, as part of the R&D team at Thornton Tomasetti, I focused on geometric rationalization and developing new interoperability workflows. I hold a Master’s in Advanced Computation for Architecture from IAAC, where my thesis centered on creating a web platform using Physics-Informed Neural Networks (PINNs) for pedestrian wind assessment. Currently, I am completing the Google Advanced Data Science Certificate to deepen my knowledge of data manipulation and its applications in neural networks and machine learning. I am passionate about learning and collaboration, so if you think I can contribute to your project, feel free to reach out!",
+      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[40vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      // img: "/hola.png",
       spareImg: "",
     },
     {
       id: 2,
       title: "My Work",
-      description: "From facade engineering to open-source tools, I explore innovation at every step.",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+      description: `Developed a web platform for urban wind simulations using Vue.js, NVIDIA Modulus, and Three.js.
+Built automated workflows integrating Python and Rhino Inside Revit for architectural projects.
+Conducted CFD modeling with Physics-Informed Neural Networks (PINNs) for fluid dynamics.
+Delivered technical training to engineering teams on computational design and scripting.`,
+      className: "lg:col-span-2 md:col-span-3 md:row-span-2 lg:min-h-[30vh]",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "",
       spareImg: "",
-    },
+    },    
     {
       id: 3,
-      title: "My Tech Stack",
-      description: "Python, Vue.js, Three.js, NVIDIA Modulus, PyTorch, and beyond.",
+      title: "Technical Toolkit",
+      description: "Python, Vue.js, Three.js, NVIDIA Modulus, PyTorch, D3.js, Docker, GeoPandas, Grasshopper, OpenWeatherMap, OpenStreetMap, Git",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -39,16 +42,18 @@ export const navItems = [
     {
       id: 4,
       title: "Educational Material",
-      description: "Here are my latest tutorials on algorithms and Physics Informed Neural Networks",
+      description:
+        "Here are my latest tutorials on algorithms and Physics Informed Neural Networks",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "/grid.svg",
       spareImg: "/b4.svg",
     },
+    
     {
       id: 5,
-      title: "Academia",
+      title: "Education",
       description: `Master of Science in Advanced Computation for Architecture - IAAC
 Bachelor of Science in Architecture - Pratt Institute
 Associate Degree in Architecture - Miami Dade College`,
@@ -57,7 +62,9 @@ Associate Degree in Architecture - Miami Dade College`,
       titleClassName: "justify-center md:justify-start lg:justify-center",      
       img: "/b5.svg",
       spareImg: "/grid.svg",
-    },    
+    },
+  
+    
     {
       id: 6,
       title: "Get in Touch",
