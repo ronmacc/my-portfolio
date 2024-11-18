@@ -24,7 +24,7 @@ const Hero = () => {
                 className="text-[28px] sm:text-[36px] md:text-5xl lg:text-6xl leading-tight"
                 words="Transformed Through Computational Design"
             />
-            <p className="md:tracking-wider text-sm md:text-lg lg:text-xl text-[#D8B4FE]">
+            <p className="md:tracking-wider text-sm md:text-lg lg:text-xl text-white">
                 with code and intuition
             </p>
             <a href="#projects">
