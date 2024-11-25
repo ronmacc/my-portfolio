@@ -1,7 +1,6 @@
 import { companies, testimonials } from '@/data'
 import React from 'react'
 import { InfiniteMovingCards } from './ui/InfiniteMovingCards'
-import { div } from 'framer-motion/client'
 
 const Clients = () => {
   return (
