@@ -46,16 +46,13 @@ const config = {
           DEFAULT: "#00509E", // Primary color
           dark: "#012A4A",    // Darker shade for dark mode
           light: "#73C2FB",   // Lighter shade
+          foreground: "hsl(var(--primary-foreground))",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
