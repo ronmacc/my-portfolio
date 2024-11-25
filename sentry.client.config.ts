@@ -5,29 +5,30 @@
 import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({
-  dsn: "", //https://b82418c9b8bb62552d4f3bbdc8af709b@o4508309309554688.ingest.us.sentry.io/4508309316435968
+  dsn: "https://238be2e080f078e345059bceb6658b2a@o4508309309554688.ingest.us.sentry.io/4508361534537728",
 
   // Add optional integrations for additional features
-  // integrations: [
-  //   Sentry.replayIntegration(),
-  //   Sentry.feedbackIntegration({
-  //     // Additional SDK configuration goes in here, for example:
-  //     colorScheme: "dark",
-  //   }),
-  // ],
+  integrations: [
+    Sentry.replayIntegration({
+      maskAllText: true,
+      blockAllMedia: true,
+    }),
+    Sentry.feedbackIntegration({
+      // Additional SDK configuration goes in here, for example:
+      colorScheme: "dark",
+    }),
+  ],
 
-  // // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.
-  // tracesSampleRate: 1,
+  // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.
+  tracesSampleRate: 1,
 
-  // // Define how likely Replay events are sampled.
-  // // This sets the sample rate to be 10%. You may want this to be 100% while
-  // // in development and sample at a lower rate in production
-  // replaysSessionSampleRate: 0.1,
+  // Define how likely Replay events are sampled.
+  // This sets the sample rate to be 10%. You may want this to be 100% while
+  // in development and sample at a lower rate in production
+  replaysSessionSampleRate: 0.1,
 
-  // // Define how likely Replay events are sampled when an error occurs.
-  // replaysOnErrorSampleRate: 1.0,
-
-  
+  // Define how likely Replay events are sampled when an error occurs.
+  replaysOnErrorSampleRate: 1.0,
 
   // Setting this option to true will print useful information to the console while you're setting up Sentry.
   debug: false,
