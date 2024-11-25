@@ -11,8 +11,13 @@ export const PinContainer = ({
   href,
   className,
   containerClassName,
+}: {
+  children: React.ReactNode;
+  title?: string;
+  href?: string;
+  className?: string;
+  containerClassName?: string;
 }) => {
-  const isExternal = href?.startsWith("http") || href?.startsWith("www."); // Check for external links
   const [transform, setTransform] = useState(
     "translate(-50%,-50%) rotateX(0deg)"
   );
@@ -25,7 +30,7 @@ export const PinContainer = ({
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
 
-  return isExternal ? (
+  return (
     // Render external link
     <a
       href={href}
@@ -51,7 +56,7 @@ export const PinContainer = ({
       </div>
       <PinPerspective title={title} href={href} />
     </a>
-  ) : (
+  ) ; (
     // Render internal link
     <Link
       href={href || "/"}
@@ -78,7 +83,13 @@ export const PinContainer = ({
   );
 };
 
-export const PinPerspective = ({ title, href }) => {
+export const PinPerspective = ({
+  title,
+  href,
+}: {
+  title?: string;
+  href?: string;
+}) => {
   return (
     <motion.div
       className="pointer-events-none w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500"

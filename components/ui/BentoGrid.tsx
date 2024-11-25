@@ -10,7 +10,13 @@ import animationData from '@/data/confetti.json';
 // Dynamically import Lottie with SSR disabled
 const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
-export const BentoGrid = ({ className, children }) => {
+export const BentoGrid = ({
+  className,
+  children,
+}: {
+  className?: string;
+  children?: React.ReactNode;
+}) => {
   return (
     <div
       className={cn(

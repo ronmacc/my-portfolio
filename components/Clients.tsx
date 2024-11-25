@@ -15,6 +15,7 @@ const Clients = () => {
                 items={testimonials}
                 direction="right"
                 speed="slow"
+                className=""
             />
             <div className='flex flex-wrap py-10 items-center justify-center gap-5 md:gap-10 max-lg: mt-10'>
                 {companies.map(({id, name, nameImg}) => (
