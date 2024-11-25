@@ -6,8 +6,9 @@ import { cn } from "../../utils/cn";
 export const TextGenerateEffect = ({
   words,
   className,
-  filter = true,
-  duration = 0.6
+}: {
+  words: string;
+  className?: string;
 }) => {
   const [scope, animate] = useAnimate();
   let wordsArray = words.split(" ");
@@ -16,7 +17,7 @@ export const TextGenerateEffect = ({
   useEffect(() => {
     animate("span", {
       opacity: 1,
-      filter: filter ? "blur(0px)" : "none",
+      filter: File ? "blur(0px)" : "none",
     }, {
       duration: 1.3,
       delay: stagger(0.27),
