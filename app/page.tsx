@@ -3,9 +3,7 @@
 import { navItems } from "@/data";
 import { FloatingNav } from '@/components/ui/FloatingNav';
 import Hero from '../components/Hero';
-import { FaHome } from 'react-icons/fa';
 import Grid from '@/components/Grid';
-import { useEffect } from 'react';
 import RecentProjects from "@/components/RecentProjects";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
