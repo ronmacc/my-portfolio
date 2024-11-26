@@ -82,4 +82,25 @@
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
+
+  .subheading {
+    @apply uppercase tracking-widest text-xs text-blue-100;
+  }
+
+  .hero-container {
+    @apply relative flex items-center justify-center h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black/[0.1];
+  }
+
+  .hero-content {
+    @apply relative z-10 max-w-[90vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center text-center space-y-4 px-4;
+  }
+
+  .hero-text {
+    @apply text-[28px] sm:text-[36px] md:text-5xl lg:text-6xl leading-tight;
+  }
+
+  .radial-mask {
+    @apply absolute inset-0 pointer-events-none flex items-center justify-center dark:bg-black-100 bg-white;
+    mask-image: radial-gradient(ellipse_at_center, transparent 20%, black);
+  }
 }
