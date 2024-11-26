@@ -1,14 +1,17 @@
 'use client';
 
 import { cn } from "../../utils/cn";
-import dynamic from "next/dynamic";  // Import dynamic from next
+import dynamic from "next/dynamic"; // Import dynamic for SSR disable
 import { MagicButton } from "../MagicButton";
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-import animationData from '@/data/confetti.json';
+import animationData from "@/data/confetti.json";
 
-// Dynamically import Lottie with SSR disabled
-const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
+// Dynamically import lottie-react with SSR disabled
+const Lottie = dynamic(() => import("lottie-react").then((mod) => mod.default), {
+  ssr: false,
+});
+
 
 export const BentoGrid = ({
   className,
@@ -60,15 +63,15 @@ export const BentoGridItem = ({
     }, 2000);
   };
 
-  // Use <a> as wrapper for id === 4
-  const Wrapper = id === 4 ? 'a' : 'div';
-  const wrapperProps = id === 4
-    ? {
-        href: "https://www.youtube.com/@madmaresearch",
-        target: "_blank",
-        rel: "noopener noreferrer",
-      }
-    : {};
+  const Wrapper = id === 4 ? "a" : "div";
+  const wrapperProps =
+    id === 4
+      ? {
+          href: "https://www.youtube.com/@madmaresearch",
+          target: "_blank",
+          rel: "noopener noreferrer",
+        }
+      : {};
 
   return (
     <Wrapper
@@ -78,7 +81,8 @@ export const BentoGridItem = ({
         className
       )}
       style={{
-        background: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+        background:
+          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
       <div className={`${id === 6 && "flex justify-center"} h-full relative`}>
@@ -89,7 +93,7 @@ export const BentoGridItem = ({
               alt={`Image for item ${id}`}
               className={cn(
                 imgClassName,
-                'w-full h-full object-cover object-center overflow-visible'
+                "w-full h-full object-cover object-center overflow-visible"
               )}
             />
           )}
@@ -97,7 +101,7 @@ export const BentoGridItem = ({
         {spareImg && (
           <div
             className={`absolute right-0 -bottom-5 ${
-              id === 5 ? 'w-full opacity-80' : ''
+              id === 5 ? "w-full opacity-80" : ""
             }`}
           >
             <img
@@ -110,7 +114,7 @@ export const BentoGridItem = ({
         <div
           className={cn(
             titleClassName,
-            'relative z-10 flex flex-col justify-between px-6 py-2 space-y-2'
+            "relative z-10 flex flex-col justify-between px-6 py-2 space-y-2"
           )}
         >
           <div className="font-sans font-extralight text-sm lg:text-base text-[#C1C2D3] whitespace-pre-line z-10 w-full leading-normal">
@@ -120,7 +124,7 @@ export const BentoGridItem = ({
             <div
               className={cn(
                 "font-sans font-bold text-lg lg:text-xl",
-                id === 4 && "hover:underline hover:text-blue-400" // Apply hover styles for the title when hovering over the box
+                id === 4 && "hover:underline hover:text-blue-400"
               )}
             >
               {title}
@@ -128,18 +132,15 @@ export const BentoGridItem = ({
           </div>
           {id === 6 && (
             <div className="mt-5 relative">
-              <div className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"}`}>
-                <Lottie
-                  options={{
-                    loop: copied,
-                    autoplay: copied,
-                    animationData,
-                    rendererSettings: {
-                      preserveAspectRatio: 'xMidYMid slice',
-                    },
-                  }}
-                />
-              </div>
+              {copied && (
+                <div className="absolute -bottom-5 right-0">
+                  <Lottie
+                    animationData={animationData}
+                    loop={false}
+                    style={{ width: 150, height: 150 }}
+                  />
+                </div>
+              )}
               <div className="mt-auto">
                 <MagicButton
                   title={copied ? "Email is Copied!" : "Copy my email"}
