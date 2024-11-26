@@ -92,7 +92,7 @@ Associate Degree in Architecture - Miami Dade College`,
         des: "Showcasing advanced Physics-Informed Neural Networks (PINNs) applications, including fluid dynamics, wave equations, and heat transfer modeling.",
         img: "/pinncert.GIF",
         iconLists: ["/python.svg", "/modulus.svg", "/pytorch.svg", "/linux.svg", "/ai.svg"],
-        link: "https://github.com/ronmaccms/PINNs_studies",
+        link: "://github.com/ronmaccms/PINNs_studies",
     },
     {
         id: 3,
