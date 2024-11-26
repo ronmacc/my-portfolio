@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 
-import { cn } from "../../utils/cn";
+import { cn } from "@/utils/cn";
 
 export const PinContainer = ({
   children,

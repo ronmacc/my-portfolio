@@ -1,6 +1,6 @@
 'use client';
 
-import { cn } from "../../utils/cn";
+import { cn } from "@/utils/cn";
 import dynamic from "next/dynamic"; // Import dynamic for SSR disable
 import { MagicButton } from "../MagicButton";
 import { useState } from "react";
