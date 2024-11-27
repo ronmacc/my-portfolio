@@ -1,6 +1,9 @@
 import {withSentryConfig} from "@sentry/nextjs";
 // import type { NextConfig } from "next";
 
+import { setMaxListeners } from 'events';
+setMaxListeners(20);
+
 const nextConfig = {
   output: 'export',
   typescript: {

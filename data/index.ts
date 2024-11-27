@@ -90,9 +90,9 @@ Associate Degree in Architecture - Miami Dade College`,
         id: 2,
         title: "PINNs Certification Projects",
         des: "Showcasing advanced Physics-Informed Neural Networks (PINNs) applications, including fluid dynamics, wave equations, and heat transfer modeling.",
-        img: "/pinncert.GIF",
+        img: "/pinncert.png",
         iconLists: ["/python.svg", "/modulus.svg", "/pytorch.svg", "/linux.svg", "/ai.svg"],
-        link: "://github.com/ronmaccms/PINNs_studies",
+        link: "https://github.com/ronmaccms/PINNs_studies",
     },
     {
         id: 3,
@@ -104,27 +104,27 @@ Associate Degree in Architecture - Miami Dade College`,
     },
     {
         id: 4,
-        title: "Embodied Carbon Steel ShapeDiver App",
+        title: "Advanced Computation and Innovation",
         des: "Calculates embodied carbon for a steel structure, integrating ML models for comprehensive analysis of building carbon impact.",
         img: "/carbonapp.gif",
         iconLists: ["/shapediver.png", "/python.svg", "/grasshopper.svg", "/ai.svg"],
-        link: "https://www.behance.net/Ronmacc",
+        link: "https://www.behance.net/gallery/213496567/Advanced-Computation-and-Innovation",
     },
     {
         id: 5,
-        title: "Topographic and Context Site Visualization",
+        title: "Data Visualization and Computational Modeling",
         des: "A tool for visualizing site-specific topographies using OpenStreetMap and Lidar data, integrating workflows for Revit, Rhino, and SAP models.",
         img: "/topoviz.gif",
         iconLists: ["/grasshopper.svg", "/gis.svg", "/osm.svg", "/python.svg", "/ladybug.svg"],
-        link: "https://www.behance.net/Ronmacc",
+        link: "https://www.behance.net/gallery/213493537/Data-Visualization-and-Computational-Modeling",
     },
     {
         id: 6,
-        title: "Special Wall Diagram Automation",
+        title: "Parametric Design and Optimization",
         des: "Automated wall diagram generation using Rhino.Inside Revit, Python, and Grasshopper to streamline room geometry tagging.",
         img: "/walld.png",
         iconLists: ["/python.svg", "/grasshopper.svg", "/autodesk.svg"],
-        link: "https://www.behance.net/Ronmacc",
+        link: "https://www.behance.net/gallery/213495409/Parametric-Design-and-Optimization",
     },
   ];
   
@@ -206,9 +206,7 @@ Associate Degree in Architecture - Miami Dade College`,
         title: "Senior Computational Designer",
         company: "Thornton Tomasetti",
         desc: [
-            "Led the development of parametric design workflows using Grasshopper and Rhino Inside Revit for large-scale engineering projects.",
-            "Created interoperability tools to integrate Rhino, Speckle, and Revit, improving collaboration across design and engineering teams.",
-            "Developed AI-driven geometric rationalization workflows to optimize structural performance and facade design."
+            "Led the development of parametric design workflows using Grasshopper and Rhino.Inside Revit, reducing design iteration times by 60% and improving collaboration across design and engineering teams. Created interoperability tools integrating Rhino, Speckle, and Revit, saving an estimated 25% in project delivery time. Developed AI-driven geometric rationalization workflows that optimized structural performance, directly contributing to securing over five large-scale engineering projects."
         ],
         className: "md:col-span-2",
         thumbnail: "/exp1.svg",
@@ -218,9 +216,7 @@ Associate Degree in Architecture - Miami Dade College`,
         title: "Urban Wind Flow Modeling Research",
         company: "IAAC",
         desc: [
-            "Developed a web-based platform for urban wind simulations using Vue.js, Three.js, and NVIDIA Modulus for CFD applications.",
-            "Integrated data from OpenStreetMap and OpenWeather APIs to model real-time urban wind conditions.",
-            "Deployed Physics-Informed Neural Networks (PINNs) for fluid dynamics modeling, contributing to sustainable urban design research."
+            "Developed a web-based platform for urban wind simulations using Vue.js, Three.js, and NVIDIA Modulus, reducing data processing times by 40%. Integrated OpenStreetMap and OpenWeather APIs to model real-time urban wind conditions, enabling cost-effective CFD applications for urban planning. Deployed Physics-Informed Neural Networks (PINNs) to simulate fluid dynamics, contributing to sustainable urban design research and influencing urban policy development."
         ],
         className: "md:col-span-2",
         thumbnail: "/exp2.svg",
@@ -230,9 +226,7 @@ Associate Degree in Architecture - Miami Dade College`,
         title: "Research Assistant – Robotic Fabrication",
         company: "Pratt Institute",
         desc: [
-            "Programmed ABB 6-axis robotic arms for multi-material 3D printing of architectural prototypes.",
-            "Developed custom scripts in Grasshopper and Python for robotic toolpath generation.",
-            "Conducted research on material performance and its application to automated architectural fabrication."
+            "Programmed ABB 6-axis robotic arms for multi-material 3D printing, achieving a 30% reduction in material waste for architectural prototypes. Developed Grasshopper and Python scripts for robotic toolpath generation, reducing setup times by 50%. Conducted research on material performance, enhancing automation processes and advancing robotic fabrication methods within the institute."
         ],
         className: "md:col-span-2",
         thumbnail: "/exp3.svg",
@@ -242,9 +236,7 @@ Associate Degree in Architecture - Miami Dade College`,
         title: "Project Manager",
         company: "Island Exterior Fabricators",
         desc: [
-            "Managed a $14 million facade fabrication and installation project, ensuring timely delivery and budget control.",
-            "Automated project workflows with data-driven scheduling tools, increasing efficiency by 20%.",
-            "Oversaw vendor coordination and logistics for complex facade elements, ensuring seamless on-site assembly."
+            "Managed a $14M façade fabrication and installation project, delivering under budget and ahead of schedule by 20%. Automated project workflows with data-driven scheduling tools, increasing efficiency and reducing delays. Oversaw vendor coordination and logistics for complex façade elements, ensuring seamless on-site assembly and improved client satisfaction."
         ],
         className: "md:col-span-2",
         thumbnail: "/exp4.svg",
@@ -254,9 +246,7 @@ Associate Degree in Architecture - Miami Dade College`,
         title: "Facade Engineer",
         company: "DeSimone Consulting Engineers",
         desc: [
-            "Designed and engineered custom facade solutions for high-profile projects, including complex geometry systems.",
-            "Conducted structural analysis and detailed engineering reports to ensure compliance with safety standards.",
-            "Collaborated with architects and contractors to optimize fabrication methods and materials."
+            "Designed and engineered custom façade solutions for high-profile projects, including complex geometry systems, improving project efficiency by 25%. Conducted structural analysis and detailed engineering reports to ensure compliance with safety standards. Collaborated with architects and contractors to optimize fabrication methods and material usage, enhancing overall project delivery."
         ],
         className: "md:col-span-2",
         thumbnail: "/exp5.svg",
@@ -266,9 +256,7 @@ Associate Degree in Architecture - Miami Dade College`,
         title: "Facade Designer",
         company: "Miami Dade College",
         desc: [
-            "Produced detailed fabrication drawings and installation guides for complex building facades.",
-            "Implemented computational design methods to enhance material efficiency and aesthetics.",
-            "Trained team members on advanced software tools such as Rhino and Grasshopper for design automation."
+            "Produced detailed fabrication drawings and installation guides for complex building façades, reducing project errors by 30%. Implemented computational design methods to enhance material efficiency and aesthetics. Trained team members on advanced software tools like Rhino and Grasshopper, streamlining design automation and fostering innovation within the team."
         ],
         className: "md:col-span-2",
         thumbnail: "/exp6.svg",
