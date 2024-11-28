@@ -17,7 +17,7 @@ const Footer = () => {
             }, 2000);
         }
   return (
-    <footer className="w-full pb-10 mb-[100px] md:mb-5" id="contact">
+    <footer className="w-full pb-10 mb-[100px] md:mb-5" id="footer">
       {/* background grid */}
 
       <div className="flex flex-col items-center ">
