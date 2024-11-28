@@ -9,7 +9,7 @@ export const navItems = [
     {
       id: 1,
       title: "Hi there!",
-      description: "Hello! I’m Andres. With a background in computational design, machine learning, and facade engineering, I specialize in applying advanced computation to architecture and engineering. Recently, as part of the R&D team at Thornton Tomasetti, I focused on geometric rationalization and developing new interoperability workflows. I hold a Master’s in Advanced Computation for Architecture from IAAC, where my thesis centered on creating a web platform using Physics-Informed Neural Networks (PINNs) for pedestrian wind assessment. Currently, I am completing the Google Advanced Data Science Certificate to deepen my knowledge of data manipulation and its applications in neural networks and machine learning. I am passionate about learning and collaboration, so if you think I can contribute to your project, feel free to reach out!",
+      description: "Hello! I’m Andres. I have hands-on experience in full-stack development, with a strong focus on creating tools and workflows that streamline complex processes. My background includes developing parametric workflows and data-driven solutions during my time at Thornton Tomasetti and building on these skills through my thesis and grad school work at IAAC. I’ve worked with web development, computational modeling, and emerging technologies like AI/ML in practical, project-focused settings—particularly in areas like data visualization and urban simulations. While I’m still growing my expertise in machine learning, I bring a thoughtful and pragmatic approach to integrating technology into actionable solutions. I'm excited to contribute to building platforms that genuinely make an impact. I am passionate about learning and collaboration, so if you think I can contribute to your project, feel free to reach out!",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[40vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
@@ -213,7 +213,7 @@ Associate Degree in Architecture - Miami Dade College`,
     },
     {
         id: 2,
-        title: "Urban Wind Flow Modeling Research",
+        title: "Research Thesis - Grad Student",
         company: "IAAC",
         desc: [
             "Developed a web-based platform for urban wind simulations using Vue.js, Three.js, and NVIDIA Modulus, reducing data processing times by 40%. Integrated OpenStreetMap and OpenWeather APIs to model real-time urban wind conditions, enabling cost-effective CFD applications for urban planning. Deployed Physics-Informed Neural Networks (PINNs) to simulate fluid dynamics, contributing to sustainable urban design research and influencing urban policy development."
@@ -254,7 +254,7 @@ Associate Degree in Architecture - Miami Dade College`,
     {
         id: 6,
         title: "Facade Designer",
-        company: "Miami Dade College",
+        company: "KPA Studio",
         desc: [
             "Produced detailed fabrication drawings and installation guides for complex building façades, reducing project errors by 30%. Implemented computational design methods to enhance material efficiency and aesthetics. Trained team members on advanced software tools like Rhino and Grasshopper, streamlining design automation and fostering innovation within the team."
         ],
