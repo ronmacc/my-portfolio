@@ -31,8 +31,10 @@ Delivered technical training to engineering teams on computational design and sc
     },    
     {
       id: 3,
-      title: "Technical Toolkit",
-      description: "Python, Vue.js, Three.js, NVIDIA Modulus, PyTorch, D3.js, Docker, GeoPandas, Grasshopper, OpenWeatherMap, OpenStreetMap, Git",
+      title: "Education",
+      description: `Master in Advanced Computation for Architecture - IAAC
+Bachelor of Science in Architecture - Pratt Institute
+Associate Degree in Architecture - Miami Dade College`,
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -53,10 +55,8 @@ Delivered technical training to engineering teams on computational design and sc
     
     {
       id: 5,
-      title: "Education",
-      description: `Master of Science in Advanced Computation for Architecture - IAAC
-Bachelor of Science in Architecture - Pratt Institute
-Associate Degree in Architecture - Miami Dade College`,
+      title: "Technical Toolkit",
+      description: "Python, Vue.js, Three.js, NVIDIA Modulus, PyTorch, D3.js, Docker, GeoPandas, Grasshopper, OpenWeatherMap, OpenStreetMap, Git",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",      
