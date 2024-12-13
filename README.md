@@ -1,11 +1,10 @@
 <a id="readme-top"></a>
 
 <div align="center">
-<!--     <img src="./web-app/src/assets/img/logo-b.png" alt="Logo" width="200"> -->
+  <!-- <img src="./web-app/src/assets/img/logo-b.png" alt="Logo" width="200"> -->
   <h3 align="center">Personal Website</h3>
-  <a href="https://andresroncal.com/" target="_blank">See my web</a>
-  <p align="center" style="font-weight: bold;">Showcasing My Work and Portfolio<br>
-  </p>
+  <a href="https://andresroncal.com/" target="_blank">Visit My Website</a>
+  <p align="center" style="font-weight: bold;">Showcasing My Work and Portfolio</p>
 </div>
 
 <p>This is my personal website designed to showcase my professional journey, projects, and interests in computational design, machine learning, and automation. Built using <strong>Next.js</strong>, the website highlights my portfolio, connects to my social profiles, and serves as a hub for my latest work and contributions.</p>
@@ -20,10 +19,11 @@
 
 <h3>Technologies Used</h3>
 <ul>
-  <li><strong>Frontend</strong>: Next.js, React.js, TailwindCSS</li>
+  <li><strong>Frontend</strong>: Next.js, React.js, TailwindCSS, Aeternity UI</li>
   <li><strong>Backend</strong>: Node.js (for potential API integrations)</li>
   <li><strong>Visualization</strong>: Three.js, D3.js</li>
-  <li><strong>Hosting</strong>: Vercel</li>
+  <li><strong>Hosting</strong>: Hostinger</li>
+  <li><strong>Monitoring</strong>: Sentry</li>
 </ul>
 
 <!-- Projects Section -->
