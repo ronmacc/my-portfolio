@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<a id="readme-top"></a>
 
-## Getting Started
+<div align="center">
+<!--     <img src="./web-app/src/assets/img/logo-b.png" alt="Logo" width="200"> -->
+  <h3 align="center">Personal Website</h3>
+  <p align="center" style="font-weight: bold;">Showcasing My Work and Portfolio<br>
+  </p>
+</div>
 
-First, run the development server:
+<p>This is my personal website designed to showcase my professional journey, projects, and interests in computational design, machine learning, and automation. Built using <strong>Next.js</strong>, the website highlights my portfolio, connects to my social profiles, and serves as a hub for my latest work and contributions.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<h3>Key Features</h3>
+<ul>
+  <li><strong>Projects Showcase</strong>: Highlighting work in urban wind flow modeling, AI governance, and data visualization.</li>
+  <li><strong>Interactive Design</strong>: Smooth navigation and responsive design for an optimal user experience.</li>
+  <li><strong>Technical Skills</strong>: Demonstrating expertise in tools like Python, Vue.js, Three.js, NVIDIA Modulus, and more.</li>
+  <li><strong>Social Links</strong>: Easy access to GitHub, LinkedIn, Behance, and other platforms.</li>
+</ul>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>Technologies Used</h3>
+<ul>
+  <li><strong>Frontend</strong>: Next.js, React.js, TailwindCSS</li>
+  <li><strong>Backend</strong>: Node.js (for potential API integrations)</li>
+  <li><strong>Visualization</strong>: Three.js, D3.js</li>
+  <li><strong>Hosting</strong>: Vercel</li>
+</ul>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<!-- Projects Section -->
+<h2>Highlighted Projects</h2>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<h3>1. Urban Wind Flow Modeling with PINNs</h3>
+<ul>
+  <li>Developed a web-based platform for simulating urban wind flow using Vue.js, NVIDIA Modulus, and Three.js.</li>
+  <li>Integrated real-time data from OpenWeatherMap and OpenStreetMap for geospatial accuracy.</li>
+  <li><a href="https://github.com/ronmaccms/macadThesis24" target="_blank">View on GitHub</a></li>
+</ul>
 
-## Learn More
+<h3>2. AI Governance Chatbot</h3>
+<ul>
+  <li>Streamlit-based chatbot analyzing AI governance strategies using policy documents.</li>
+  <li>Incorporated OpenAI models for intelligent document parsing and analysis.</li>
+  <li><a href="https://github.com/ronmaccms/llm-chatbot" target="_blank">View on GitHub</a></li>
+</ul>
 
-To learn more about Next.js, take a look at the following resources:
+<h3>3. Data Visualization and Computational Modeling</h3>
+<ul>
+  <li>Visualized topographic and site-specific data using Grasshopper and Python integrations.</li>
+  <li>Enhanced workflows with geospatial data for architectural and engineering applications.</li>
+  <li><a href="https://www.behance.net/gallery/213493537/Data-Visualization-and-Computational-Modeling" target="_blank">View on Behance</a></li>
+</ul>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2>Social Links</h2>
+<ul>
+  <li><a href="https://github.com/ronmaccms" target="_blank">GitHub</a></li>
+  <li><a href="https://www.linkedin.com/in/andres-roncal-1b148a132/" target="_blank">LinkedIn</a></li>
+  <li><a href="https://www.behance.net/Ronmacc" target="_blank">Behance</a></li>
+  <li><a href="https://blog.iaac.net/user/ronmacc/" target="_blank">IAAC Blog</a></li>
+</ul>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
