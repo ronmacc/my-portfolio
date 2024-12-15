@@ -93,7 +93,7 @@ export const BentoGridItem = ({
               alt={`Image for item ${id}`}
               className={cn(
                 imgClassName,
-                "w-full h-full object-cover object-center overflow-visible"
+                "w-full h-full object-cover object-center overflow-visible "
               )}
             />
           )}

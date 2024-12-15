@@ -18,13 +18,8 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2 lg:min-h-[30vh]",
-      imgClassName: "",
-      titleClassName: "justify-start",
+      className: "min-h-[200px] sm:min-h-[250px] md:col-span-3 md:row-span-2 lg:col-span-2 lg:min-h-[25vh]",
       img: "movedrag.gif",
-      spareImg: "/grid.svg",
     },    
     {
       id: 3,
