@@ -15,10 +15,9 @@ const Home = () => {
     <main className="overflow-clip relative bg-black-100 flex justify-center items-center flex-col mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} className={""} />
-        <Game1 />
-        <Game1 />
+        {/* <Game1 />
+        <Game1 /> */}
         <Hero />
-        
         <Grid />
         <RecentProjects />
         {/* <Clients /> */}
