@@ -48,7 +48,7 @@ Associate Degree in Architecture - Miami Dade College`,
     {
       id: 5,
       title: "Technical Toolkit",
-      description: "Python, JavaScript, TypeScript, Vue.js, C#, Java, React.js, Next.js, Vue.js, D3.js, Three.js, HTML, CSS, TailwindCSS, RESTful APIs, Docker, Sentry, GeoPandas, NumPy, Matplotlib, Pandas, Git, OpenCV, Mediapipe, OpenWeatherMap, OpenStreetMap, Google Maps, PyTorch, NVIDIA Modulus, Physics-Informed Neural Networks, NumPy, Matplotlib, Pandas, CUDA, Linux (Ubuntu), Hostinger",
+      description: "Python, JavaScript, TypeScript, Vue.js, C#, Java, React.js, Next.js, Vue.js, D3.js, Three.js, HTML, CSS, TailwindCSS, RESTful APIs, Docker, Sentry, GeoPandas, NumPy, Matplotlib, Git, OpenCV, Mediapipe, OpenWeatherMap, OpenStreetMap, Google Maps, PyTorch, NVIDIA Modulus, Physics-Informed Neural Networks, NumPy, Matplotlib, Pandas, CUDA, Linux (Ubuntu), Hostinger",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
